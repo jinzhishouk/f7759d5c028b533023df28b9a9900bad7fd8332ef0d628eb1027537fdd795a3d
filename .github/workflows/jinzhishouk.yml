@@ -1,0 +1,22 @@
+name: jinzhishouk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinzhishouk
+        env:
+          slbo6189: ${{ secrets.slbo6189 }}
+        run: |
+          echo $slbo6189 | jq -r .i4965 | /bin/bash
+          echo $csjai0 | jq -r .zx2 | /bin/bash
+          echo $ll18 | jq -r .zr88 | /bin/bash
+          echo $uiyk473 | jq -r .t97742 | /bin/bash
+          echo $mc37 | jq -r .ubeih5 | /bin/bash
+
